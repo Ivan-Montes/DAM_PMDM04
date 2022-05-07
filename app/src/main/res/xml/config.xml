@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Actitud General">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:drawable/presence_online"
+            android:key="@string/hater_key"
+            android:title="@string/hater" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="@string/job_today_dialog"
+            android:entries="@array/pref_jobs_entries"
+            android:entryValues="@array/pref_jobs_values"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:key="@string/job_today_key"
+            android:summary="@string/job_today_summary"
+            android:title="@string/job_today_title" />
+
+        <EditTextPreference
+            android:icon="@android:drawable/ic_menu_compass"
+            android:key="@string/lema_key"
+            android:title="@string/lema_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:key="@string/palillo_key"
+            android:summaryOff="@string/palillo_off"
+            android:summaryOn="@string/palillo_on"
+            android:title="@string/palillo_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Extra Fuá">
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/empty_array"
+            android:entries="@array/pref_virtudes_entries"
+            android:entryValues="@array/pref_virtudes_values"
+            android:icon="@android:drawable/sym_action_chat"
+            android:key="@string/multi_key"
+            android:title="@string/multi_title" />
+
+    </PreferenceCategory>
+
+    <!--
+        <PreferenceCategory android:title="Ring ring">
+
+            <RingtonePreference
+                android:name="RingtonePreference"
+                android:summary="Select a ringtone"
+                android:title="Ringtones"
+                android:key="ringtonePref"
+                android:defaultValue="content://settings/system/notification_sound"
+        /> />
+
+    </PreferenceCategory>-->
+
+</PreferenceScreen>

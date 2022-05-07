@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">La Multi APP Total</string>
+    <string name="titulo_main">Elige tu camino</string>
+    <string name="btn_01">Ejercicio1</string>
+    <string name="btn_02">Ejercicio2</string>
+    <string name="btn_03">Ejercicio3</string>
+    <string name="hater">Soy Hater hoy?</string>
+    <string name="hater_key">hater_key</string>
+    <string name="job_today_dialog">De que entiendo hoy?</string>
+    <string name="job_today_title">Cuñadometro</string>
+    <string name="job_today_summary">Elige tu oficio</string>
+    <string name="job_today_key">job_today_key</string>
+    <string name="lema_title">Frase motivadora cutre del día</string>
+    <string name="lema_key">lema_key</string>
+    <string name="palillo_title">Palillo en boca</string>
+    <string name="palillo_key">palillo_key</string>
+    <string name="palillo_on">Si, y con prensa deportiva bajo el brazo</string>
+    <string name="palillo_off">No, solo prensa deportiva</string>
+    <string name="multi_title">Listado de virtudes</string>
+    <string name="multi_key">multi_key</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="Pause">Pause</string>
+    <string name="pon_url">Introducir URL</string>
+    <string name="titulo_multimedia">WinAmp Azendado</string>
+    <string name="url_fail">La URL no es correcta</string>
+    <string name="error_audio">Error: en lanzarAudio</string>
+    <string name="cargando_audio">Cargando Audio en buffer</string>
+    <string name="fin_video">Fin del video</string>
+    <string name="init_record">Iniciar grabación del video</string>
+    <string name="calidad_alta">Activar Calidad Alta</string>
+    <string name="tiempo_video">Tiempo de duración del video</string>
+    <string name="tiempo_video_hint">Duración en segundos</string>
+    <string name="calidad_alta_txt">Alta</string>
+</resources>

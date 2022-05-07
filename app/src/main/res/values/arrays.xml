@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="empty_array"/>
+
+    <string-array name="pref_jobs_entries">
+        <item>Epidemiólogo</item>
+        <item>Vulcanólogo</item>
+        <item>Especialista en ganaderías intensivas</item>
+        <item>Experto en conflictos internacionales</item>
+    </string-array>
+
+    <string-array name="pref_jobs_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_virtudes_entries">
+        <item>Mas modesto que yo nadie</item>
+        <item>Que yo no soy tonto</item>
+        <item>Universidad de la calle</item>
+        <item>"YO te lo saco más barato"</item>
+    </string-array>
+
+    <string-array name="pref_virtudes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
