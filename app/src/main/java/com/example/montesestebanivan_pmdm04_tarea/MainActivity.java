@@ -22,12 +22,9 @@ public class MainActivity extends AppCompatActivity {
     private void crearListenerBotones(Context context){
 
         Button btn01 = findViewById(R.id.btn01);
-        btn01.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,ConfigActivity.class);
-                startActivity(intent);
-            }
+        btn01.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this,ConfigActivity.class);
+            startActivity(intent);
         });
 
         Button btn02 = findViewById(R.id.btn02);
