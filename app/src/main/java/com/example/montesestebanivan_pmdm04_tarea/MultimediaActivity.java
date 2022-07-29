@@ -42,8 +42,15 @@ public class MultimediaActivity extends AppCompatActivity {
 
     public void onDestroy() {
         super.onDestroy();
-        if (mediaPlayer != null) {mediaPlayer.stop();mediaPlayer.release();mediaPlayer=null;};
-        if (videoView != null) {videoView.stopPlayback();videoView = null;};
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+            mediaPlayer=null;
+        }
+        if (videoView != null) {
+            videoView.stopPlayback();
+            videoView = null;
+        }
     }
 
 
