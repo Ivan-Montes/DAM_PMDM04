@@ -1,13 +1,10 @@
 package com.example.montesestebanivan_pmdm04_tarea;
 
-import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        crearListenerBotones(getApplicationContext());
+        crearListenerBotones();
     }
 
-    private void crearListenerBotones(Context context){
+    private void crearListenerBotones(){
 
         Button btn01 = findViewById(R.id.btn01);
         btn01.setOnClickListener(v -> {
@@ -28,20 +25,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button btn02 = findViewById(R.id.btn02);
-        btn02.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),MultimediaActivity.class);
-                startActivity(intent);
-            }
+        btn02.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(),MultimediaActivity.class);
+            startActivity(intent);
         });
 
 
         Button btn03 = findViewById(R.id.btn03);
-        btn03.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(),VideoActivity.class);
-                startActivity(intent);
-            }
+        btn03.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(),VideoActivity.class);
+            startActivity(intent);
         });
     }
 }
